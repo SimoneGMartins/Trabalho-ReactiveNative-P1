@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TrabalhoP1",
+    "slug": "TrabalhoP1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/discord.png",
+    "scheme": "trabalhop1",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/discord.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+
+    "web": {
+      "favicon": "./assets/discord.png"
+    },
+
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/discord.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
