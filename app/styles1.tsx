@@ -35,6 +35,19 @@ export const styles = StyleSheet.create({
      color:"#fff",
      fontWeight: "bold",
     },
+   input: {
+    
+  width: "80%",
+  height: 50,
+  backgroundColor: "#3399fF",
+  borderRadius: 10,
+  paddingHorizontal: 15,
+  fontSize: 16,
+  borderWidth: 1,
+  borderColor: "#aaa",
+  marginBottom: 20,
+},
+    
 
 });
  
